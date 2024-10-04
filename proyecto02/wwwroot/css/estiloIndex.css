@@ -1,0 +1,148 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container, .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#contenedor-1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.minititulo1, .minititulo2 {
+    font-weight: bold;
+    width: 100%;
+    font-size: 24px;
+    text-align: center; /* Centrar el texto dentro de cada div */
+    margin: 0 40px;
+}
+
+.bton1 {
+    font-size: 17px;
+    color: orangered;
+}
+
+.contenedor-2 img {
+    width: 200px; /* Cambia este valor según lo que necesites */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 0 5px;
+}
+
+.contenedor-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px 20px;
+}
+
+.contenedor-3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.estadisticas-texto {
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.porcentajes {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    margin: 20px 20px;
+    justify-content: space-around;
+}
+
+.porcentaje-texto {
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+#color-completo {
+    background-color: black;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px;
+    width: 100%;
+}
+
+#piepagina {
+    margin: 0;
+    height: 150px;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.contenedor-pie1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+}
+
+.texto-conocer {
+    font-size: 24px;
+    margin-left: 50px;
+}
+
+.texto-subtitulo {
+    font-size: 19px;
+}
+
+    .texto-conocer span, .texto-subtitulo span {
+        margin-right: 190px;
+    }
+
+.contenedor-pie2 {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    line-height: 24px;
+}
+
+.pie-descripcion {
+    white-space: pre-line;
+    font-size: 14px;
+}
+
+.enlace1 {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+    .enlace1:visited {
+        color: white;
+        text-decoration: none;
+    }
+
+    .enlace1:hover {
+        color: blue;
+        text-decoration: none;
+    }
+
+.pie-descripcion, .correo-pie, .somos-pie {
+    margin-left: 45px;
+    margin-right: 200px;
+}
