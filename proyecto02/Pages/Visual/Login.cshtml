@@ -2,7 +2,36 @@
 @model proyecto02.Pages.Visual.LoginModel
 @{
     ViewData["Title"] = "Login";
-    Layout = "/Pages/Shared/_LayoutLogin.cshtml";
+    // Layout = "/Pages/Shared/_LayoutLogin.cshtml";
 }
 
-<h1 id="TitleLogin">Bienvenidos a BUILDTRACK-7</h1>
+<head>
+    <title>Inicio de sesion</title>
+</head>
+<body>
+
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-4" style="margin-top: 50px;">
+            <form method="post">
+                <div class="text-danger" asp-validation-summary="All"></div>
+                @* identifica los errores *@
+                @if (Model.ErrorMessage != null)
+                {
+                    <div class="alert alert-danger">@Model.ErrorMessage</div>
+                }
+                <div class="mb-3">
+                    <label asp-for="Credential.Username">Usuario</label>
+                    <input type="text" class="form-control" asp-for="Credential.Username" placeholder="Ingrese su usuario">
+                    <span class="text-danger" asp-validation-for="Credential.Username"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Credential.Password">Contraseña</label>
+                    <input type="password" class="form-control" asp-for="Credential.Password" placeholder=" Contraseña">
+                    <span class="text-danger" asp-validation-for="Credential.Password"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+
+        </div>
+    </div>
+</body>

@@ -39,6 +39,20 @@ button.accept-policy {
   line-height: inherit;
 }
 
+.btn-iniciar-sesion {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Tamaño del botón */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Manito al pasar por el botón */
+    font-size: 16px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+    .btn-iniciar-sesion:hover {
+        background-color: #45a049; /* Color al hacer hover */
+    }
+
 .footer {
   position: absolute;
   bottom: 0;
